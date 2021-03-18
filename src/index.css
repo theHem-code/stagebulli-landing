@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  background-color: #e1dfd9;
+  font-family: 'Rubik', sans-serif;
+  font-weight: lighter;
+}
+
+.bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./images/stagebulli.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 30px;
+  color: white;
+  margin: 5px;
+  padding-left: 10px;
+  transition: 0.1s;
+}
+.icon:hover {
+  opacity: 0.7;
+}
+
+.icon-black {
+  font-size: 30px;
+  color: black;
+  transition: 0.2s;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.icon-black:hover {
+  opacity: 0.7;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 60px;
+}
+
+.nav {
+  /* background-color: rgba(0, 0, 0, 0.568); */
+  width: 100%;
+  /* position: fixed; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  height: 100%;
+  /* padding-top: 20px; */
+  /* padding-left: 60px; */
+}
+
+.logo_birddogs {
+  width: 150px;
+  /* height: 100%; */
+  object-fit: contain;
+  margin-right: 30px;
+}
+
+.logo_hilde {
+  width: 200px;
+  /* height: 100%; */
+  object-fit: contain;
+  margin-left: 30px;
+}
+
+.logos {
+  border-bottom: 1px solid black;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.header {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  padding: 0;
+}
+/* 
+.footer-end {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  padding: 40px 0;
+  margin-bottom: 40px;
+} */
+
+.imprint {
+  padding: 0 20px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+a {
+  color: rgb(48, 102, 48);
+  transition: 0.1s;
+}
+
+a:hover {
+  color: rgba(48, 102, 48, 0.582);
+  text-decoration: none;
+}
+
+.kontakt {
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+  text-align: center;
+  width: 500px;
+}
+
+.button_form {
+  padding: 10px 30px;
+  background-color: rgba(48, 102, 48, 0.582);
+  box-shadow: none !important;
+  border: none;
+  border-radius: 2px;
+  transition: .2s;
+  color: white;
+
+}
+
+.button_form:hover {
+  opacity: .7;
+  color: white;
+  box-shadow: none;
+}
+
+.imprint-container {
+  padding-top: 50px;
+}
