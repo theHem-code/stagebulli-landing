@@ -1,13 +1,18 @@
 import React from "react";
 import Header from "./Header";
-import {Link} from 'react-router-dom';
+import { useLayoutEffect } from "react";
 
 const Datenschutz = () => {
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   return (
     <div className="container">
+      <Header />
       <div className="imprint-container">
         <h1>DATENSCHUTZ</h1>
-        <Link to="/"><p style={{fontWeight: 400, textAlign: 'right',}}>ZURÜCK ZUR HOMEPAGE</p></Link>
         <br />
         <hr></hr>
         <br />
