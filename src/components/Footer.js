@@ -47,10 +47,10 @@ const Footer = () => {
           <br />
           <a href="https://www.stagebulli.de">www.stagebulli.de</a>
           <div className="footer-end">
-            <a href="https://www.instagram.com/stagebulli/" target="_blank">
+            <a href="https://www.instagram.com/stagebulli/" target="_blank" rel="noreferrer">
               <i className="icon-black fab fa-instagram"></i>
             </a>
-            <a href="https://www.facebook.com/stagebulli" target="_blank">
+            <a href="https://www.facebook.com/stagebulli" target="_blank" rel="noreferrer">
               <i className="icon-black fab fa-facebook-f"></i>
             </a>
           </div>
