@@ -14,7 +14,7 @@ body {
   background-size: cover;
 }
 
-.video {
+.video-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,20 +71,22 @@ body {
   width: 150px;
   /* height: 100%; */
   object-fit: contain;
-  margin-right: 30px;
+  margin: 15px;
+  margin-bottom: 40px;
 }
 
 .logo_hilde {
   width: 200px;
   /* height: 100%; */
   object-fit: contain;
-  margin-left: 30px;
+  margin: 15px;
+  margin-bottom: 40px;
+
 }
 
 .logos {
   border-bottom: 1px solid black;
   padding-bottom: 40px;
-  margin-bottom: 40px;
 }
 
 .header {

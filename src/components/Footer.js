@@ -3,8 +3,6 @@ import Hilde_Logo from "../images/hildebrandt-logo.jpeg";
 import Birddogs_Logo from "../images/BIRDDOGS_Logo.png";
 import { Link } from "react-router-dom";
 
-
-
 const Footer = () => {
   return (
     <div className="container">
@@ -13,14 +11,24 @@ const Footer = () => {
           <h3 className="col-12">In Kooperation mit</h3>
         </div>
       </div>
-      <div className="row justify-content-center logos">
-        <div className="d-flex justify-content-center">
-          <img
-            className="logo_birddogs"
-            src={Birddogs_Logo}
-            alt="Birddogs_Logo"
-          />
-          <img className="logo_hilde" src={Hilde_Logo} alt="Hildebrandt_Logo" />
+      <div className="row justify-content-center align-items-center logos">
+        <div>
+          <div className="col-lg-2 col-12">
+            <img
+              className="logo_birddogs"
+              src={Birddogs_Logo}
+              alt="Birddogs_Logo"
+            />
+          </div>
+        </div>
+        <div>
+          <div className="col-lg-2 col-12">
+            <img
+              className="logo_hilde"
+              src={Hilde_Logo}
+              alt="Hildebrandt_Logo"
+            />
+          </div>
         </div>
       </div>
       <div className="row justify-content-center header">
@@ -39,10 +47,10 @@ const Footer = () => {
           <br />
           <a href="https://www.stagebulli.de">www.stagebulli.de</a>
           <div className="footer-end">
-            <a href="https://www.instagram.com/stagebulli/" target="_blank" rel="noreferrer">
+            <a href="https://www.instagram.com/stagebulli/" target="_blank">
               <i className="icon-black fab fa-instagram"></i>
             </a>
-            <a href="https://www.facebook.com/stagebulli" target="_blank" rel="noreferrer">
+            <a href="https://www.facebook.com/stagebulli" target="_blank">
               <i className="icon-black fab fa-facebook-f"></i>
             </a>
           </div>
@@ -50,8 +58,12 @@ const Footer = () => {
       </div>
       <div className="row justify-content-center">
         <div>
-          <Link to="/datenschutz" className="imprint">Datenschutz</Link>
-          <Link to="/impressum" className="imprint">Impressum</Link>
+          <Link to="/datenschutz" className="imprint">
+            Datenschutz
+          </Link>
+          <Link to="/impressum" className="imprint">
+            Impressum
+          </Link>
         </div>
       </div>
     </div>

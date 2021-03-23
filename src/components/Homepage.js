@@ -11,7 +11,7 @@ const Homepage = () => {
         <div className="container">
           <Header />
         </div>
-        <div className="video">
+        <div className="video-wrapper">
           <ReactPlayer url="https://www.youtube.com/watch?v=Wpli5-YRj6o&ab_channel=birddogsmusic" />
         </div>
       </div>
